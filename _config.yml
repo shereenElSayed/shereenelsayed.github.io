@@ -99,6 +99,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        border: weak 
         title: UCSB - RaceLab
         link: https://sites.cs.ucsb.edu/~ckrintz/racelab.html
         # link_text: boringcompany.com
@@ -118,6 +119,7 @@ content:
               <mark>Python</mark> <mark>Kafka</mark> <mark>CICD</mark> <mark>Docker</mark> <mark>AWS</mark> <mark>Pub-Sub</mark> <mark>Linux</mark>
 
       - layout: left
+        border: weak 
         title: Siemens Digital Industries Software
         link: https://www.sw.siemens.com/en-US
         # link_text: boringcompany.com
@@ -139,6 +141,7 @@ content:
             <mark>C++</mark> <mark>Java</mark> <mark>Shell</mark> <mark>Linux</mark> <mark>TCL</mark> <mark>Eclipse</mark> <mark>Xtext</mark> <mark>VHDL</mark> <mark>Compilers</mark> <mark>Language Model</mark> <mark>Desktop Application</mark>
   
       - layout: left
+        border: weak 
         title: Siemens Digital Industries Software
         link: https://www.sw.siemens.com/en-US
         # link_text: boringcompany.com
@@ -158,6 +161,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        border: weak 
         title: Twitch Videos' Packets Curation
         link: https://github.com/shereenElSayed/Twitch_Videos_Curation
         quote: >
@@ -170,7 +174,8 @@ content:
             <mark>Python</mark> <mark>Selenium</mark> <mark>Tshark</mark> 
 
       - layout: top-middle
-        title: pyrtl Matrix Multiplication
+        border: weak 
+        title: Pyrtl Matrix Multiplication
         link: https://github.com/shereenElSayed/pyrtl_matrix_multiplication
         quote: >
           Hardware design using pyrtl
