@@ -69,53 +69,54 @@ about_content: | # this will include new lines to allow paragraphs
 content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
-    - layout: left
-      border: weak 
-      title: University of California, Santa Barbara
-      caption: 2021 - 2024
-      sub_title: M.Sc Computer Science
-      # quote: >
-      #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-      description: | # this will include new lines to allow paragraphs
-        Lab: (RaceLab)[https://sites.cs.ucsb.edu/~ckrintz/racelab.html] with Prof. Chandra Krintz and Prof. Rich Wolski
-        
-        My research focus area is <mark>distributed systems</mark> and <mark>IOT</mark>. I worked in several projects:
-        - [CSPOT](https://github.com/MAYHEM-Lab/cspot): It is a runtime system that amalgamates "Serverless" computing (i.e. Functions as a Service – FaaS) and distributed computing principles targeting Internet of Things (IoT) applications.
-        - Designed a system that enhances the power consumption of authentication and authorization for IOT devices by 60%
-        - [Caplets](https://github.com/shereenElSayed/caplets_implementation): Implemented the [CAPLETs paper](https://ieeexplore.ieee.org/document/9709087) algorithm
+    content:
+      - layout: left
+        border: weak 
+        title: University of California, Santa Barbara
+        caption: 2021 - 2024
+        sub_title: M.Sc Computer Science
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          Lab: (RaceLab)[https://sites.cs.ucsb.edu/~ckrintz/racelab.html] with Prof. Chandra Krintz and Prof. Rich Wolski
+          
+          My research focus area is <mark>distributed systems</mark> and <mark>IOT</mark>. I worked in several projects:
+          - [CSPOT](https://github.com/MAYHEM-Lab/cspot): It is a runtime system that amalgamates "Serverless" computing (i.e. Functions as a Service – FaaS) and distributed computing principles targeting Internet of Things (IoT) applications.
+          - Designed a system that enhances the power consumption of authentication and authorization for IOT devices by 60%
+          - [Caplets](https://github.com/shereenElSayed/caplets_implementation): Implemented the [CAPLETs paper](https://ieeexplore.ieee.org/document/9709087) algorithm
 
-        Publications:
-        - [DEPOT](https://sites.cs.ucsb.edu/~ckrintz/papers/depot23.pdf)
-        - Authenticate and authorize IOT devices with less power (Submitted)
+          Publications:
+          - [DEPOT](https://sites.cs.ucsb.edu/~ckrintz/papers/depot23.pdf)
+          - Authenticate and authorize IOT devices with less power (Submitted)
 
-        Technologies and Skills:
-          <mark>Distributed Systems</mark> <mark>IOT</mark> <mark>AWS</mark> <mark>Python</mark> <mark>C++</mark> <mark>Linux</mark> <mark>Docker</mark> <mark>Kafka</mark> <mark>Pub-Sub</mark> <mark>MQTT</mark> <mark>Terraform</mark> <mark>FaaS</mark> <mark>Algorithms</mark> <mark>Database</mark> <mark>AWS-GreenGrass</mark> <mark>AWS-IOT</mark>
+          Technologies and Skills:
+            <mark>Distributed Systems</mark> <mark>IOT</mark> <mark>AWS</mark> <mark>Python</mark> <mark>C++</mark> <mark>Linux</mark> <mark>Docker</mark> <mark>Kafka</mark> <mark>Pub-Sub</mark> <mark>MQTT</mark> <mark>Terraform</mark> <mark>FaaS</mark> <mark>Algorithms</mark> <mark>Database</mark> <mark>AWS-GreenGrass</mark> <mark>AWS-IOT</mark>
     # content:
-    - layout: left
-      border: weak
-      title: Cairo University
-      caption: 2015 - 2019
-      sub_title: M.Sc Computer Engineering
-      # quote: >
-      #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-      description: | # this will include new lines to allow paragraphs
-        Advisors: Prof. (Elsayed Hemayed)[https://eg.linkedin.com/in/elsayed-hemayed-27813a7] and Prof. (Mona Farouk)[https://eg.linkedin.com/in/mona-farouk]
-        
-        My research focus area is <mark>NLP</mark> for Egyptian Arabic dialect using <mark>machine learning</mark> and <mark>neural networks</mark>. I created my own (dataset)[https://github.com/shery91/Egyptian-Dialect-Gender-Annotated-Dataset] and manually annotated 10K tweets 
+      - layout: left
+        border: weak
+        title: Cairo University
+        caption: 2015 - 2019
+        sub_title: M.Sc Computer Engineering
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          Advisors: Prof. (Elsayed Hemayed)[https://eg.linkedin.com/in/elsayed-hemayed-27813a7] and Prof. (Mona Farouk)[https://eg.linkedin.com/in/mona-farouk]
+          
+          My research focus area is <mark>NLP</mark> for Egyptian Arabic dialect using <mark>machine learning</mark> and <mark>neural networks</mark>. I created my own (dataset)[https://github.com/shery91/Egyptian-Dialect-Gender-Annotated-Dataset] and manually annotated 10K tweets 
 
-        Publications:
-        - [Gender identification of Egyptian dialect in twitter](https://www.sciencedirect.com/science/article/pii/S1110866518302044?via%3Dihub) - 21 citations
-        - [Gender Identification for Egyptian Arabic Dialect in Twitter Using Deep Learning](https://www.sciencedirect.com/science/article/pii/S1110866520301158) - 12 citations 
-      
-        Technologies and Skills:
-          <mark>Python</mark> <mark>NLP</mark> <mark>Machine Learning</mark> <mark>Neural Networks</mark>
+          Publications:
+          - [Gender identification of Egyptian dialect in twitter](https://www.sciencedirect.com/science/article/pii/S1110866518302044?via%3Dihub) - 21 citations
+          - [Gender Identification for Egyptian Arabic Dialect in Twitter Using Deep Learning](https://www.sciencedirect.com/science/article/pii/S1110866520301158) - 12 citations 
+        
+          Technologies and Skills:
+            <mark>Python</mark> <mark>NLP</mark> <mark>Machine Learning</mark> <mark>Neural Networks</mark>
     # content:
-    - layout: left
-      title: Cairo University
-      caption: 2009 - 2014
-      sub_title: B.Sc Computer Engineering
-      description: |
-        Graduation project: 3D Virtual meetings platform
+      - layout: left
+        title: Cairo University
+        caption: 2009 - 2014
+        sub_title: B.Sc Computer Engineering
+        description: |
+          Graduation project: 3D Virtual meetings platform
 
   - title: Work Experience
     layout: list
