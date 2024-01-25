@@ -78,19 +78,19 @@ content:
         # quote: >
         #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          <h6>Lab:</h6> (RaceLab)[https://sites.cs.ucsb.edu/~ckrintz/racelab.html] with Prof. Chandra Krintz and Prof. Rich Wolski
+          <h2>Lab:</h2> (RaceLab)[https://sites.cs.ucsb.edu/~ckrintz/racelab.html] with Prof. Chandra Krintz and Prof. Rich Wolski
           
-          <h6>Research Focus:</h6>
+          <h4>Research Focus:</h4>
           My research focus area is <mark>distributed systems</mark> and <mark>IOT</mark>. I worked in several projects:
           - [CSPOT](https://github.com/MAYHEM-Lab/cspot): It is a runtime system that amalgamates "Serverless" computing (i.e. Functions as a Service – FaaS) and distributed computing principles targeting Internet of Things (IoT) applications.
           - Designed a system that enhances the power consumption of authentication and authorization for IOT devices by 60%
           - [Caplets](https://github.com/shereenElSayed/caplets_implementation): Implemented the [CAPLETs paper](https://ieeexplore.ieee.org/document/9709087) algorithm
 
-          <h6>Publications:</h6>
+          <h3>Publications:</h3>
           - [DEPOT](https://sites.cs.ucsb.edu/~ckrintz/papers/depot23.pdf)
           - Authenticate and authorize IOT devices with less power (Submitted)
 
-          <h6>Technologies and Skills:</h6>
+          <h3>Technologies and Skills:</h3>
             <mark>Distributed Systems</mark> <mark>IOT</mark> <mark>AWS</mark> <mark>Python</mark> <mark>C++</mark> <mark>Linux</mark> <mark>Docker</mark> <mark>Kafka</mark> <mark>Pub-Sub</mark> <mark>MQTT</mark> <mark>Terraform</mark> <mark>FaaS</mark> <mark>Algorithms</mark> <mark>Database</mark> <mark>AWS-GreenGrass</mark> <mark>AWS-IOT</mark>
     # content:
       - layout: left
