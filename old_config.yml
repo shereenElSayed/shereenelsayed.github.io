@@ -1,0 +1,213 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Shereen Elsayed
+title: Software Development Engineer
+email: s_elsayed@ucsb.edu
+website: https://shereenelsayed.github.io/
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+# twitter_username: facespics
+github_username:  shereenelsayed
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: shereen-hussein
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Greetings, I'm Shereen, a seasoned software development engineer that welcomes challenges and architects solutions. I hold dual master's degrees, one in computer science from UCSB, and the other in computer engineering from Cairo University. Over the past four years, my professional journey has encompassed valuable experiences at UCSB and Siemens Digital Industries Software. Within these roles, I honed a diverse set of technical and interpersonal skills, contributing to my holistic expertise in the field.
+
+  I am most skilled in: <mark>Problem Solving</mark>, <mark>Designing Solutions</mark>
+
+content:
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: University of California, Santa Barbara
+        caption: 2021 - 2024
+        sub_title: M.Sc Computer Science
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          Lab: (RaceLab)[https://sites.cs.ucsb.edu/~ckrintz/racelab.html] with Prof. Chandra Krintz and Prof. Rich Wolski
+          
+          My research focus area is <mark>distributed systems</mark> and <mark>IOT</mark>. I worked in several projects:
+          - [CSPOT](https://github.com/MAYHEM-Lab/cspot): It is a runtime system that amalgamates "Serverless" computing (i.e. Functions as a Service – FaaS) and distributed computing principles targeting Internet of Things (IoT) applications.
+          - Designed a system that enhances the power consumption of authentication and authorization for IOT devices by 60%
+          - [Caplets](https://github.com/shereenElSayed/caplets_implementation): Implemented the [CAPLETs paper](https://ieeexplore.ieee.org/document/9709087) algorithm
+
+          Publications:
+          - [DEPOT](https://sites.cs.ucsb.edu/~ckrintz/papers/depot23.pdf)
+          - Authenticate and authorize IOT devices with less power (Submitted)
+
+          Technologies and Skills:
+            <mark>Distributed Systems</mark> <mark>IOT</mark> <mark>AWS</mark> <mark>Python</mark> <mark>C++</mark> <mark>Linux</mark> <mark>Docker</mark> <mark>Kafka</mark> <mark>Pub-Sub</mark> <mark>MQTT</mark> <mark>Terraform</mark> <mark>FaaS</mark> <mark>Algorithms</mark> <mark>Database</mark> <mark>AWS-GreenGrass</mark> <mark>AWS-IOT</mark>
+    # content:
+    ----------------------------------------
+      - layout: left
+        title: Cairo University
+        caption: 2015 - 2019
+        sub_title: M.Sc Computer Engineering
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          Advisors: Prof. (Elsayed Hemayed)[https://eg.linkedin.com/in/elsayed-hemayed-27813a7] and Prof. (Mona Farouk)[https://eg.linkedin.com/in/mona-farouk]
+          
+          My research focus area is <mark>NLP</mark> for Egyptian Arabic dialect using <mark>machine learning</mark> and <mark>neural networks</mark>. I created my own (dataset)[https://github.com/shery91/Egyptian-Dialect-Gender-Annotated-Dataset] and manually annotated 10K tweets 
+
+          Publications:
+          - [Gender identification of Egyptian dialect in twitter](https://www.sciencedirect.com/science/article/pii/S1110866518302044?via%3Dihub) - 21 citations
+          - [Gender Identification for Egyptian Arabic Dialect in Twitter Using Deep Learning](https://www.sciencedirect.com/science/article/pii/S1110866520301158) - 12 citations 
+        
+          Technologies and Skills:
+            <mark>Python</mark> <mark>NLP</mark> <mark>Machine Learning</mark> <mark>Neural Networks</mark>
+    # content:
+      - layout: left
+        title: Cairo University
+        caption: 2009 - 2014
+        sub_title: B.Sc Computer Engineering
+        description: |
+          Graduation project: 3D Virtual meetings platform
+  
+  - title: Work Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: UCSB - RaceLab
+        link: https://sites.cs.ucsb.edu/~ckrintz/racelab.html
+        # link_text: boringcompany.com
+        sub_title: Software Development Engineer
+        caption: Feb 2020 - August 2020
+        quote: 
+          Racelab is the source of innovative ideas and solutions for distributed system and IOT
+        description: | # this will include new lines to allow paragraphs
+            - Spearheaded the exploration of Continuous Integration and Continuous Deployment <mark>(CICD)</mark> solutions for generic Internet of Things (IoT) applications, enhancing the efficiency and reliability of development processes.
+            - Designed and implemented a versatile notification system for sensors using <mark>Kafka</mark>, providing a highly configurable and scalable solution to enhance the monitoring capabilities within the project.
+            - Collaborated seamlessly with cross-functional teams to ensure the successful integration of features and functionalities, contributing to the overall success of the (Hopskotch)[https://scimma.org/hopskotch.html] project.
+            - Demonstrated strong problem-solving skills, actively participating in troubleshooting sessions and resolving technical challenges to maintain project timelines.
+            - Upheld high standards of code quality, conducted thorough code reviews, and implemented best practices to ensure the delivery of robust and maintainable software solutions.
+
+            Technologies and Skills:
+              <mark>Python</mark> <mark>Kafka</mark> <mark>CICD</mark> <mark>Docker</mark> <mark>AWS</mark> <mark>Pub-Sub</mark> <mark>Linux</mark>
+    content:
+      - layout: left
+        title: Siemens Digital Industries Software
+        link: https://www.sw.siemens.com/en-US
+        # link_text: boringcompany.com
+        sub_title: Software Development Engineer
+        caption: June 2014 - Feb 2019
+      
+        description: | # this will include new lines to allow paragraphs
+            - Achieved significant performance enhancements of up to 50% across various projects through the delivery of superior designs and implementations. 
+            - Introduced over 100 new functionalities, contributing directly to project success and efficiency.
+            - Managed various projects and tasks, encompassing the preparation of detailed function specifications and work breakdown structures.
+            - Maintained a commitment to high-quality standards, conducting thorough code reviews and implementing best practices to ensure the reliability and maintainability of software solutions.
+            - Leveraged extensive technical knowledge in software development to drive the successful execution of projects, meeting or exceeding established goals and milestones
+            - Explored new technologies suitable for enhancing <mark>VHDL</mark> language support, focusing on highly advanced editing capabilities within the Eclipse Rich Client Platform (RCP).
+            - Prepared a detailed work breakdown structure, coupled with comprehensive function specifications, to guide the implementation and understanding of VHDL language support within the project.
+            - Investigated and successfully integrated the XText plugin for domain-specific languages, seamlessly incorporating it into our Eclipse RCP application to enhance language-specific editing features.
+
+            Technologies and Skills:
+             <mark>C++</mark> <mark>Java</mark> <mark>Shell</mark> <mark>Linux</mark> <mark>TCL</mark> <mark>Eclipse</mark> <mark>Xtext</mark> <mark>VHDL</mark> <mark>Compilers</mark> <mark>Language Model</mark> <mark>Desktop Application</mark>
+  
+    content:
+      - layout: left
+        title: Siemens Digital Industries Software
+        link: https://www.sw.siemens.com/en-US
+        # link_text: boringcompany.com
+        sub_title: Internships - Software Development Engineer
+        caption: Summer 2012 - Summer 2013 - Winter 2014
+      
+        description: | 
+          - Implemented a robust integration between Atlassian JIRA and IBM Rational ClearQuest, establishing a seamless connection between these two essential project management and issue tracking tools. 
+          - Collaborated with team members to gather requirements, ensuring that the integration addressed specific needs and enhanced overall productivity.
+          - Created comprehensive documentation for the integration project, ensuring that future team members could understand and maintain the solution effectively.
+          - Designed and implemented 32 testing APIs, providing a robust framework for testing various functionalities within the Eclipse Rich Client Platform (RCP) application/plugin.
+          - Created 15 comprehensive flow tests to validate the functionality of basic flows in the Eclipse RCP application/plugin, ensuring the reliability of core features.
+          - Successfully debugged and fixed 10 issues in the Eclipse plugin, demonstrating a keen eye for detail and proficiency in troubleshooting.
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Twitch Videos' Packets Curation
+        link: https://github.com/shereenElSayed/Twitch_Videos_Curation
+        quote: >
+          This is a very interesting project for networking
+        description: | # this will include new lines to allow paragraphs
+          This projects curates videos in Twitch and download the received network packets. It is exteremly helpful if you are interested in building your dataset of network packet and study them.
+
+          Technologies and Skills:
+            <mark>Python</mark> <mark>Selenium</mark> <mark>Tshark</mark> 
+    content:
+      - layout: top-middle
+        title: pyrtl Matrix Multiplication
+        link: https://github.com/shereenElSayed/pyrtl_matrix_multiplication
+        quote: >
+          Hardware design using pyrtl
+        description: | # this will include new lines to allow paragraphs
+          This projects creates a matrix multiplication with hardware using pyrtl. It contains different hardware implementations, all using pyrtl.
+
+          Technologies and Skills:
+            <mark>Python</mark> <mark>Pyrtl</mark>
+
+    
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in software engineering some of my other interests and hobbies are:
+      - Cooking
+      - Designing kids activites
+      - Knitting
+      - Painting
+
+# Look at this cool image  
+# ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
