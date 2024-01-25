@@ -76,7 +76,7 @@ content:
 
           Technologies and Skills:
             <mark>Distributed Systems</mark> <mark>IOT</mark> <mark>AWS</mark> <mark>Python</mark> <mark>C++</mark> <mark>Linux</mark> <mark>Docker</mark> <mark>Kafka</mark> <mark>Pub-Sub</mark> <mark>MQTT</mark> <mark>Terraform</mark> <mark>FaaS</mark> <mark>Algorithms</mark> <mark>Database</mark> <mark>AWS-GreenGrass</mark> <mark>AWS-IOT</mark>
-    content:
+    # content:
       - layout: left
         title: Cairo University
         caption: 2015 - 2019
@@ -94,7 +94,7 @@ content:
         
           Technologies and Skills:
             <mark>Python</mark> <mark>NLP</mark> <mark>Machine Learning</mark> <mark>Neural Networks</mark>
-    content:
+    # content:
       - layout: left
         title: Cairo University
         caption: 2009 - 2014
