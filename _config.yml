@@ -25,11 +25,20 @@ linkedin_username: shereen-hussein
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Greetings, I'm Shereen, a seasoned software development engineer that welcomes challenges and architects solutions. I hold dual master's degrees, one in computer science from UCSB, and the other in computer engineering from Cairo University. Over the past four years, my professional journey has encompassed valuable experiences at UCSB and Siemens Digital Industries Software. Within these roles, I honed a diverse set of technical and interpersonal skills, contributing to my holistic expertise in the field.
   
-  I am most skilled in: <mark>Problem Solving</mark>, <mark>Designing Solutions</mark>
+  I am most skilled in: <mark>Software Development</mark>, <mark>Designing Solutions</mark>
+
+  BUT I have these extra-ordinary mixture of skills:
+   <mark>EDA/CAD</mark> <mark>Distributed Systems</mark> <mark>IOT</mark> <mark>AWS</mark> <mark>C++</mark> <mark>Linux</mark> 
+   <mark>Docker</mark> <mark>Kafka</mark> <mark>Pub-Sub</mark> <mark>MQTT</mark> <mark>Terraform</mark> 
+   <mark>FaaS</mark> <mark>Algorithms</mark> <mark>Database</mark> <mark>AWS-GreenGrass</mark> <mark>AWS-IOT</mark>
+   <mark>NLP</mark> <mark>Machine Learning</mark> <mark>Neural Networks</mark>
+   <mark>Kafka</mark> <mark>CICD</mark> <mark>Java</mark> <mark>Shell</mark> <mark>TCL</mark> <mark>Eclipse</mark>
+   <mark>Xtext</mark> <mark>VHDL</mark> <mark>Compilers</mark> <mark>Language Model</mark> <mark>Desktop Application</mark>
+   <mark>Selenium</mark> <mark>Tshark</mark> <mark>Pyrtl</mark>
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
 # You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
@@ -56,7 +65,7 @@ content:
           <myheader>Research Focus:</myheader>
           My research focus area is <mark>distributed systems</mark> and <mark>IOT</mark>. I worked in several projects:
           - [CSPOT](https://github.com/MAYHEM-Lab/cspot): It is a runtime system that amalgamates "Serverless" computing (i.e. Functions as a Service – FaaS) and distributed computing principles targeting Internet of Things (IoT) applications.
-          - Designed a system that enhances the power consumption of authentication and authorization for IOT devices by 60%
+          - Designed a system that enhances the power consumption of authentication and authorization for IOT devices by <b>60%/<b>
           - [Caplets](https://github.com/shereenElSayed/caplets_implementation): Implemented the [CAPLETs paper](https://ieeexplore.ieee.org/document/9709087) algorithm
 
           <myheader>Publications:</myheader>
@@ -78,7 +87,10 @@ content:
           <myheader>Advisors:</myheader> Prof. [Elsayed Hemayed](https://eg.linkedin.com/in/elsayed-hemayed-27813a7) and Prof. [Mona Farouk](https://eg.linkedin.com/in/mona-farouk)
           
           <myheader>Research Focus:</myheader>
-          My research focus area is <mark>NLP</mark> for Egyptian Arabic dialect using <mark>machine learning</mark> and <mark>neural networks</mark>. I created my own [dataset](https://github.com/shery91/Egyptian-Dialect-Gender-Annotated-Dataset) and manually annotated 10K tweets 
+          My research focus area is <mark>NLP</mark> for Egyptian Arabic dialect using <mark>machine learning</mark> and <mark>neural networks</mark>. 
+          - I created my own [dataset](https://github.com/shery91/Egyptian-Dialect-Gender-Annotated-Dataset) and manually annotated <b>10K</b> tweets based on gender of the author.
+          - With classical machine learning, I achieved 87.6% accuracy for gender identification based on authors with Egyptian dialect tweets.
+          - With neural networks, I achieved 91.37% accuracy using the same dataset as the classical machine learning.
 
           <myheader>Publications:</myheader>
           - [Gender identification of Egyptian dialect in twitter](https://www.sciencedirect.com/science/article/pii/S1110866518302044?via%3Dihub) - 21 citations
@@ -103,16 +115,26 @@ content:
         title: UCSB - RaceLab
         link: https://sites.cs.ucsb.edu/~ckrintz/racelab.html
         # link_text: boringcompany.com
+        sub_title: Research/Teaching Assistant
+        caption: September 2020 - Present
+        description: |
+          - Designed and instructed an introductory class for Python for <b>150</b> students.
+          - Designed <b>20</b> labs for Python and IOT classes. 
+          - Architected an innovative system that enhances the power consumption by <b>60%</b> for devices authentication in IOT.
+          - Investigated ETL and distributed storages for a community-sustainable platform.
+
+      - layout: left
+        border: weak 
+        title: UCSB - RaceLab
+        link: https://sites.cs.ucsb.edu/~ckrintz/racelab.html
+        # link_text: boringcompany.com
         sub_title: Software Development Engineer
         caption: Feb 2020 - August 2020
-        quote: 
-          Racelab is the source of innovative ideas and solutions for distributed system and IOT
         description: | # this will include new lines to allow paragraphs
-            - Spearheaded the exploration of Continuous Integration and Continuous Deployment <mark>(CICD)</mark> solutions for generic Internet of Things (IoT) applications, enhancing the efficiency and reliability of development processes.
-            - Designed and implemented a versatile notification system for sensors using <mark>Kafka</mark>, providing a highly configurable and scalable solution to enhance the monitoring capabilities within the project.
-            - Collaborated seamlessly with cross-functional teams to ensure the successful integration of features and functionalities, contributing to the overall success of the (Hopskotch)[https://scimma.org/hopskotch.html] project.
-            - Demonstrated strong problem-solving skills, actively participating in troubleshooting sessions and resolving technical challenges to maintain project timelines.
-            - Upheld high standards of code quality, conducted thorough code reviews, and implemented best practices to ensure the delivery of robust and maintainable software solutions.
+          - Spearheaded the exploration of Continuous Integration and Continuous Deployment (CICD) solutions for generic Internet of Things (IoT) applications, enhancing the efficiency and reliability of development processes by 25%.
+          - Designed and implemented a scalable failure notification system for <b>1000+</b> sensors using Kafka, providing a highly configurable and scalable solution to enhance the monitoring capabilities within the project.
+          - Coordinated the collaboration among multiple universities to develop an event-driven alerting system for multi-messenger astronomy.
+          - Implemented the base foundation for HOPSKOTCH project that services the astronomy community world-wide.
 
             <myheader>Technologies and Skills:</myheader>
 
@@ -125,16 +147,15 @@ content:
         # link_text: boringcompany.com
         sub_title: Software Development Engineer
         caption: June 2014 - Feb 2019
-      
         description: | # this will include new lines to allow paragraphs
-            - Achieved significant performance enhancements of up to 50% across various projects through the delivery of superior designs and implementations. 
-            - Introduced over 100 new functionalities, contributing directly to project success and efficiency.
-            - Managed various projects and tasks, encompassing the preparation of detailed function specifications and work breakdown structures.
-            - Maintained a commitment to high-quality standards, conducting thorough code reviews and implementing best practices to ensure the reliability and maintainability of software solutions.
-            - Leveraged extensive technical knowledge in software development to drive the successful execution of projects, meeting or exceeding established goals and milestones
-            - Explored new technologies suitable for enhancing <mark>VHDL</mark> language support, focusing on highly advanced editing capabilities within the Eclipse Rich Client Platform (RCP).
-            - Prepared a detailed work breakdown structure, coupled with comprehensive function specifications, to guide the implementation and understanding of VHDL language support within the project.
-            - Investigated and successfully integrated the XText plugin for domain-specific languages, seamlessly incorporating it into our Eclipse RCP application to enhance language-specific editing features.
+            - Achieved significant performance enhancements of up to <b>50%</b> across various projects through the delivery of superior designs and implementations. 
+            - Introduced over <b>100</b> new functionalities, contributing directly to HDS project success and efficiency.
+            - Maintained a commitment to high-quality standards, conducting thorough code reviews and implementing best practices to ensure the reliability and maintainability of software solutions. 
+            - Prepared a detailed work breakdown structure for major project with more than <b>5</b> employees, coupled with comprehensive function specifications, to guide the implementation and understanding of VHDL language support within the project.
+            - Successfully integrated the XText plugin for domain-specific languages, seamlessly incorporating it into our Eclipse RCP application to add the support for VHDL with language-specific editing features.
+            - Lead summer internship programs for <b>10</b> undergraduate students.
+            - Spearheaded a comprehensive presentation on machine learning and neural networks, engaging and educating a diverse audience of over <b>400</b> employees.
+            - Leveraged extensive technical knowledge in software development to drive the successful execution of projects, meeting or exceeding established goals and milestones.
 
             <myheader>Technologies and Skills:</myheader>
 
@@ -147,7 +168,6 @@ content:
         # link_text: boringcompany.com
         sub_title: Internships - Software Development Engineer
         caption: Summer 2012 - Summer 2013 - Winter 2014
-      
         description: | 
           - Implemented a robust integration between Atlassian JIRA and IBM Rational ClearQuest, establishing a seamless connection between these two essential project management and issue tracking tools. 
           - Collaborated with team members to gather requirements, ensuring that the integration addressed specific needs and enhanced overall productivity.
