@@ -89,8 +89,8 @@ content:
           <myheader>Research Focus:</myheader>
           My research focus area is <mark>NLP</mark> for Egyptian Arabic dialect using <mark>machine learning</mark> and <mark>neural networks</mark>. 
           - I created my own [dataset](https://github.com/shery91/Egyptian-Dialect-Gender-Annotated-Dataset) and manually annotated <b>10K</b> tweets based on gender of the author.
-          - With classical machine learning, I achieved 87.6% accuracy for gender identification based on authors with Egyptian dialect tweets.
-          - With neural networks, I achieved 91.37% accuracy using the same dataset as the classical machine learning.
+          - With classical machine learning, I achieved <b>87.6%</b> accuracy for gender identification based on authors with Egyptian dialect tweets.
+          - With neural networks, I achieved <b>91.37%</b> accuracy using the same dataset as the classical machine learning.
 
           <myheader>Publications:</myheader>
           - [Gender identification of Egyptian dialect in twitter](https://www.sciencedirect.com/science/article/pii/S1110866518302044?via%3Dihub) - 21 citations
@@ -131,7 +131,7 @@ content:
         sub_title: Software Development Engineer
         caption: Feb 2020 - August 2020
         description: | # this will include new lines to allow paragraphs
-          - Spearheaded the exploration of Continuous Integration and Continuous Deployment (CICD) solutions for generic Internet of Things (IoT) applications, enhancing the efficiency and reliability of development processes by 25%.
+          - Spearheaded the exploration of Continuous Integration and Continuous Deployment (CICD) solutions for generic Internet of Things (IoT) applications, enhancing the efficiency and reliability of development processes by <b>25%</b>.
           - Designed and implemented a scalable failure notification system for <b>1000+</b> sensors using Kafka, providing a highly configurable and scalable solution to enhance the monitoring capabilities within the project.
           - Coordinated the collaboration among multiple universities to develop an event-driven alerting system for multi-messenger astronomy.
           - Implemented the base foundation for HOPSKOTCH project that services the astronomy community world-wide.
@@ -172,9 +172,9 @@ content:
           - Implemented a robust integration between Atlassian JIRA and IBM Rational ClearQuest, establishing a seamless connection between these two essential project management and issue tracking tools. 
           - Collaborated with team members to gather requirements, ensuring that the integration addressed specific needs and enhanced overall productivity.
           - Created comprehensive documentation for the integration project, ensuring that future team members could understand and maintain the solution effectively.
-          - Designed and implemented 32 testing APIs, providing a robust framework for testing various functionalities within the Eclipse Rich Client Platform (RCP) application/plugin.
-          - Created 15 comprehensive flow tests to validate the functionality of basic flows in the Eclipse RCP application/plugin, ensuring the reliability of core features.
-          - Successfully debugged and fixed 10 issues in the Eclipse plugin, demonstrating a keen eye for detail and proficiency in troubleshooting.
+          - Designed and implemented <b>32</b> testing APIs, providing a robust framework for testing various functionalities within the Eclipse Rich Client Platform (RCP) application/plugin.
+          - Created <b>15</b> comprehensive flow tests to validate the functionality of basic flows in the Eclipse RCP application/plugin, ensuring the reliability of core features.
+          - Successfully debugged and fixed <b>10</b> issues in the Eclipse plugin, demonstrating a keen eye for detail and proficiency in troubleshooting.
 
 
   - title: Projects # Title for the section
