@@ -107,6 +107,9 @@ content:
         description: |
           Graduation project: 3D Virtual meetings platform
 
+          <myheader>Technologies and Skills:</myheader>
+          <mark>C++</mark> <mark>Java</mark> <mark>HTML</mark> <mark>CSS</mark> <mark>Javascript</mark>
+
   - title: Work Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -122,7 +125,9 @@ content:
           - Designed <b>20</b> labs for Python and IOT classes. 
           - Architected an innovative system that enhances the power consumption by <b>60%</b> for devices authentication in IOT.
           - Investigated ETL and distributed storages for a community-sustainable platform.
-
+          
+          <myheader>Technologies and Skills:</myheader>
+            <mark>HTML</mark> <mark>CSS</mark> <mark>Javascript</mark> <mark>Python</mark> <mark>Kafka</mark> <mark>CICD</mark> <mark>Docker</mark> <mark>Pub-Sub</mark> <mark>Linux</mark>
       - layout: left
         border: weak 
         title: UCSB - RaceLab
