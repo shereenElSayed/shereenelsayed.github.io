@@ -38,7 +38,7 @@ about_content: | # this will include new lines to allow paragraphs
    <mark>NLP</mark> <mark>Machine Learning</mark> <mark>Neural Networks</mark>
    <mark>Kafka</mark> <mark>CICD</mark> <mark>Java</mark> <mark>Shell</mark> <mark>TCL</mark> <mark>Eclipse</mark>
    <mark>Xtext</mark> <mark>VHDL</mark> <mark>Compilers</mark> <mark>Language Model</mark> <mark>Desktop Application</mark>
-   <mark>Selenium</mark> <mark>Tshark</mark> <mark>Pyrtl</mark>
+   <mark>Selenium</mark> <mark>Tshark</mark> <mark>Pyrtl</mark> <mark>HTML</mark> <mark>CSS</mark> <mark>Javascript</mark>
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
 # You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
